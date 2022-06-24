@@ -101,6 +101,7 @@ Tạo 1 file `docker-compose.yml` với nội dung:
                 WORDPRESS_DB_HOST: db:3306
                 WORDPRESS_DB_USER: wordpress
                 WORDPRESS_DB_PASSWORD: wordpress
+                WORDPRESS_DB_NAME: wordpress
             volumes:
             - wp-db:/var/www/html
 
